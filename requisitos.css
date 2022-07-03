@@ -1,0 +1,33 @@
+.botones-UwU {
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.botoon{ 
+    display: inline-flex;
+    align-items: center; 
+    align-content: center;
+    justify-content: center;
+    width:100%;
+    height: 60px;
+    background: #165695;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 500;
+    border:none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .7s ease all;
+    border-radius: 5px;
+    
+}
+
+
+.botoon:hover{
+ background: green;
+}
+
+  

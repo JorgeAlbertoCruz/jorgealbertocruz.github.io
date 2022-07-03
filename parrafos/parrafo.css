@@ -1,0 +1,50 @@
+body{
+ background-repeat: no-repeat;
+    background: cover;
+    background-attachment: fixed;
+    
+    
+}
+
+
+h1{   
+ font-family: cursive;
+}
+
+p{
+    font-family: cursive;
+}
+.contenedor-botones {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    
+    
+}
+    
+.boton {
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width:100%;
+    height: 80px;
+    background:#165695;
+    color: white;
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .7s ease all;
+    border-radius: 5px;
+    
+}
+
+.boton:hover {
+ background: green;
+}
+
+  
